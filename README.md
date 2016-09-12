@@ -6,7 +6,9 @@ Android outlined text view.
 
 # Download
 
-TODO
+```
+compile 'jp.hamcheesedev:outlinedtextview:0.1.0'
+```
 
 # Usage
 
