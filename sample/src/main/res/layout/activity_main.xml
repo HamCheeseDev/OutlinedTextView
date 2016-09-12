@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jp.hamcheesedev.outlinedtextview.MainActivity">
+
+    <jp.hamcheesedev.outlinedtextview.CompatOutlinedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="The quick brown fox jumps over the lazy dog."
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        app:strokeColor="#F00"
+        app:strokeWidth="2dp"/>
+
+
+    <jp.hamcheesedev.outlinedtextview.CompatOutlinedTextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#060"
+        android:gravity="center_horizontal|bottom"
+        android:padding="4dp"
+        android:text="The quick brown fox jumps over the lazy dog.\nThe quick brown fox jumps over the lazy dog."
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        app:strokeColor="#00F"
+        app:strokeWidth="4dp"/>
+
+    <jp.hamcheesedev.outlinedtextview.CompatOutlinedTextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview_border"
+        android:gravity="right|center_vertical"
+        android:padding="4dp"
+        android:text="The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog."
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:strokeColor="#0F0"
+        app:strokeWidth="2dp"/>
+
+    <jp.hamcheesedev.outlinedtextview.CompatOutlinedTextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:drawableLeft="@android:drawable/ic_dialog_alert"
+        android:gravity="right|center_vertical"
+        android:padding="4dp"
+        android:text="The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog."
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:strokeColor="#0FF"
+        app:strokeWidth="2dp"/>
+</LinearLayout>
